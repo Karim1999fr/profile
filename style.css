@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(215 215 215);
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  background-size: cover;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  font-family: arial;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+h2 {font-size: 25px;}
+
+a {
+  color: red;
+  text-decoration: underline;
+  font-size: 20px;
+}
+a:hover{
+  text-decoration: none;
+}
+p {margin-bottom: 35px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.banner {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+
+}
+
+.card {
+  /*width: 500px*/   /* This sets the width */
+
+  border-radius: 4px;
+  margin: 20px 60px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-black {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .banner {
+    width: 700px;
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  .banner {
+    width: 500px;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .banner {
+    width: 50%;
+    /*text-align: center;*/
+  }
+}
+
+
+
+
